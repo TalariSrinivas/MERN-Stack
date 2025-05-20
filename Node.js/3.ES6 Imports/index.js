@@ -1,7 +1,10 @@
 import greet from "./greet.js"
+import {p1,p2,p3} from "./peoples.js"
 //.js is necessary
 
-greet("Srinivas");
+greet(p1);
+greet(p2);
+greet(p3);
 
 //use npm init 
 //then go to package.json and add the below code
